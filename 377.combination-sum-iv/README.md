@@ -23,4 +23,4 @@
    dp[target]为答案
 ### 复杂度
 时间复杂度：O(n*target)
-空间复杂度：借用dp数组大小为n,O(n)
+空间复杂度：借用dp数组大小为target,O(target)
