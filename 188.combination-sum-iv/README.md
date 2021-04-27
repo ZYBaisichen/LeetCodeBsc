@@ -11,7 +11,8 @@ https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/
 
 
 # 思路(C++)
-## 动态规划
+## 第一种动态规划
+> 自己的思路，但没有全部ac
 一、初步分析
 由于在买卖过程中最多只能完成K笔交易，因此在任意一天结束后的的状态，要么手里有股票，要么手里没股票。
 其中有股票有两种情况，要么是在第i天当天完成第j次的买入操作，要么在前几天完成了第j次的买入操作(j=1,2,...k)
@@ -52,3 +53,6 @@ sell[i][j] = max(sell[i-1][j], buy[i-1][j]+prices[i])
 时间复杂度：O(n*k)。遍历n天和k次交易
 
 空间复杂度：O(2*n*k) 借用两个二维数组buy和sell
+
+### 题解思路
+> 参考：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iv-by-8xtkp/
