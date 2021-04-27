@@ -1,7 +1,7 @@
 /*** 
  * @Author: baisichen
  * @Date: 2021-04-22 10:58:26
- * @LastEditTime: 2021-04-26 10:54:43
+ * @LastEditTime: 2021-04-27 10:26:39
  * @LastEditors: baisichen
  * @Description: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/
  */
@@ -14,6 +14,7 @@ public:
     int maxProfit(int k, vector<int>& prices) {
         int len = prices.size();
         if (len==0)return 0;
+        if (k==0) return 0;
         vector<vector<int>> buy(len+1, vector<int>(k+1, 0));
         vector<vector<int>> sell(len+1, vector<int>(k+1, 0));
         for (int i=1;i<=len;i++) {
