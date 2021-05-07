@@ -1,12 +1,14 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-05-07 11:34:56
+ * @LastEditTime: 2021-05-07 11:38:13
  * @LastEditors: baisichen
  * @Description: 
 -->
 # LeetCodeBsc
-![](https://github.com/ZYBaisichen/MarkdownImages/blob/main/leetcode_cn.jpeg)
+<div align=center>
+<img src="https://github.com/ZYBaisichen/MarkdownImages/blob/main/leetcode_cn.jpeg" />
+</div>
 
 这个库是刷的力扣，中文版的leetcode，中国未来发展趋势肯定是方方面面国产化，所以中文还是很重要的。
 
