@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-05-07 10:51:16
+ * @LastEditTime: 2021-05-07 11:17:01
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -12,7 +12,7 @@ LeetCode solutions in C++ 11 and Python3.
 
 |NO.|Title|Solution|Note|Difficulty|Tag|相似题型|
 |---|-----|--------|----|----------|---|-------|
-|acwing02|[01背包问题](https://www.acwing.com/problem/content/2/)|[C++](acwing02.ZeroOnePack/solution.h) |[Note](acwing02.ZeroOnePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
+|acwing02|[01背包问题](https://www.acwing.com/problem/content/2/)|[C++](acwing02.ZeroOnePack/solution.h) |[Note](acwing02.ZeroOnePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#背包系列问题)|
 |acwing03|[完全背包问题](https://www.acwing.com/problem/content/3/)|[C++](acwing03.CompletePack/solution.h) |[Note](acwing03.CompletePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
 |acwing04、05、06|[多重背包问题](https://www.acwing.com/problem/content/4/)|[C++](acwing04.MultiplePack/solution.h) |[Note](acwing04.MultiplePack)|困难|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[C++](121.best-time-to-buy-and-sell-stock/solution.h) |[Note](121.best-time-to-buy-and-sell-stock)|简单|`dfs、优化`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
