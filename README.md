@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-05-07 11:38:13
+ * @LastEditTime: 2021-05-07 14:14:30
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -19,6 +19,7 @@ LeetCode solutions in C++ 11 and Python3.
 |acwing02|[01背包问题](https://www.acwing.com/problem/content/2/)|[C++](acwing02.ZeroOnePack/solution.h) |[Note](acwing02.ZeroOnePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#acwing&知乎经典背包九讲)|
 |acwing03|[完全背包问题](https://www.acwing.com/problem/content/3/)|[C++](acwing03.CompletePack/solution.h) |[Note](acwing03.CompletePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#acwing&知乎经典背包九讲)|
 |acwing04、05、06|[多重背包问题](https://www.acwing.com/problem/content/4/)|[C++](acwing04.MultiplePack/solution.h) |[Note](acwing04.MultiplePack)|困难|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#acwing&知乎经典背包九讲)|
+|84|[柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|[C++](84.largest-rectangle-in-histogram/solution.h) |[Note](84.largest-rectangle-in-histogram)|困难|`栈、单调栈`|见[经典题型分类汇总-栈](经典题型分类汇总.md#栈)|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[C++](121.best-time-to-buy-and-sell-stock/solution.h) |[Note](121.best-time-to-buy-and-sell-stock)|简单|`dfs、优化`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md#股票买卖系列问题)|
 |122|[买卖股票的最佳时机ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](122.best-time-to-buy-and-sell-stock-ii/solution.h)|[Note](122.best-time-to-buy-and-sell-stock-ii)|中等|`贪心、dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md#股票买卖系列问题)|
 |123|[买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](123.best-time-to-buy-and-sell-stock-iii/solution.h)|[Note](123.best-time-to-buy-and-sell-stock-iii)|困难|`dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md#股票买卖系列问题)|
