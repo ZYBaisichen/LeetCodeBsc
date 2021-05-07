@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-04-27 20:02:56
+ * @LastEditTime: 2021-05-07 10:35:20
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -12,10 +12,14 @@ LeetCode solutions in C++ 11 and Python3.
 
 |NO.|Title|Solution|Note|Difficulty|Tag|相似题型|
 |---|-----|--------|----|----------|---|-------|
+|acwing02|[01背包问题](https://www.acwing.com/problem/content/2/)|[C++](acwing02.ZeroOnePack/solution.h) |[Note](acwing02.ZeroOnePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
+|acwing03|[完全背包问题](https://www.acwing.com/problem/content/3/)|[C++](acwing03.CompletePack/solution.h) |[Note](acwing03.CompletePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
+|acwing04、05、06|[多重背包问题](https://www.acwing.com/problem/content/4/)|[C++](acwing04.MultiplePack/solution.h) |[Note](acwing04.MultiplePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md)|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[C++](121.best-time-to-buy-and-sell-stock/solution.h) |[Note](121.best-time-to-buy-and-sell-stock)|简单|`dfs、优化`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
 |122|[买卖股票的最佳时机ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](122.best-time-to-buy-and-sell-stock-ii/solution.h)|[Note](122.best-time-to-buy-and-sell-stock-ii)|中等|`贪心、dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
 |123|[买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](123.best-time-to-buy-and-sell-stock-iii/solution.h)|[Note](123.best-time-to-buy-and-sell-stock-iii)|困难|`dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
 |188|[买卖股票的最佳时机IV](https://leetcode-cn.com/problems/combination-sum-iv/)|[C++](188.combination-sum-iv/solution.h)|[Note](188.combination-sum-iv)|困难|`dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
+|239|[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)|[C++](239.sliding-window-maximum/solution.h)|[Note](239.sliding-window-maximum)|困难|`数据结构、单调队列`|见[经典题型分类汇总-队列](经典题型分类汇总.md)|
 |309|[最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[C++](309.best-time-to-buy-and-sell-stock-with-cooldown/solution.h)|[Note](309.best-time-to-buy-and-sell-stock-with-cooldown)|中等|`dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md)|
 |322|[硬币组合问题](https://leetcode-cn.com/problems/coin-change/submissions/)|[C++](322.coin-change/solution.h) |[Note](322.coin-change)|中等|`dp`|见[经典题型分类汇总-背包系列问题](经典题型分类汇总.md)|
 |363|[求矩形区域不超过K的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[C++](363.max-sum-of-rectangle-no-larger-than-k/solution.h) |[Note](363.max-sum-of-rectangle-no-larger-than-k)|困难|`边界遍历、贪心、dp`||
