@@ -15,83 +15,51 @@ using namespace std;
 
 class Solution {
 public:
-    bool exist(vector<vector<char>>& board, string word) {
-        int m = board.size();
-        if (m==0) return false;
-        int n = board[0].size();
-        if (n==0) return false;
-        for (int i=0;i<m;i++) {
-            for (int j=0;j<n;j++) {
-                if (dfs(board, word,  i, j, 0)) {
-                    return true;
-                }
-            }
+    int movingCount(int m, int n, int k) {
+        if (m==0||n==0) return 0;
+        if (k==0) {
+            return 1;
         }
-        return false;
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
+        return dfs(m,n,0,0,visited, k);
     }
-    bool dfs(vector<vector<char>>& board, string word, 
-        int i, int j, int k) {
-            int m = board.size();
-            int n = board[0].size();
-            int len = word.length();
-            if (i<0 
-                || i>=m
-                || j<0
-                || j>=n
-                || k >= len
-                || board[i][j] == '\0'
-                || board[i][j] != word[k]
-            ) {
-                return false;
-            }
-            //能走到这里说明board[i][j]==word[k]
-            if (k==len-1) {return true;}
-            
-            //标识被访问过
-            board[i][j] = '\0';
+    int dfs(int m, int n, int i, int j, vector<vector<bool>>& visited, int k) {
+        if (
+            i<0 ||
+            i>=m ||
+            j<0 ||
+            j>=n ||
+            visited[i][j]
+        ) {
+            return 0;
+        }
 
-            //上下左右继续找
-            bool res = dfs(board, word, i-1, j, k+1) ||
-                dfs(board, word, i+1, j, k+1) ||
-                dfs(board, word, i, j-1, k+1) ||
-                dfs(board, word, i, j+1, k+1);
-            
-            //回溯被访问的节点
-            board[i][j] = word[k];
+        //设置已经访问过
+        visited[i][j] = true;
+        
+        //计算是否可以进入当前节点
+        
+        if (getSum(i)+getSum(j) > k) {
+            return 0;
+        }
 
-            return res;
+        int res = 1;
+
+        //编程小技巧，方向数组，分别表示上，下，左，右
+        int map[4][2]={{-1,0},{1,0},{0,-1},{0,1}};
+        for (int kk = 0; kk <4;kk++) {
+            res += dfs(m, n, i+map[kk][0], j+map[kk][1], visited, k);
+        }
+        return res;
     }
-    bool dfsDrection(vector<vector<char>>& board, string word, 
-        int i, int j, int k) {
-            int m = board.size();
-            int n = board[0].size();
-            int len = word.length();
-            if (i<0 
-                || i>=m
-                || j<0
-                || j>=n
-                || k >= len
-                || board[i][j] == '\0'
-                || board[i][j] != word[k]
-            ) {
-                return false;
-            }
-            //能走到这里说明board[i][j]==word[k]
-            if (k==len-1) {return true;}
-            
-            //标识被访问过
-            board[i][j] = '\0';
-
-            //编程小技巧，方向数组，分别表示上，下，左，右
-            int map[4][2]={{-1,0},{1,0},{0,-1},{0,1}};
-            bool res = false;
-            for (int kk = 0; kk <4;kk++) {
-                res = res || dfs(board, word, i+map[kk][0], j+map[kk][1], k+1);
-            }
-                      
-            //回溯被访问的节点
-            board[i][j] = word[k];
-
-            return res;
+    
+    //这里其实是最优的，因为每个节点计算一次之后因为visited的存在，一定不会再计算一次
+    int getSum(int num) {
+        int sum = 0;
+        while(num!=0) {
+            sum+=num%10;
+            num=num/10;
+        }
+        return sum;
     }
 };
