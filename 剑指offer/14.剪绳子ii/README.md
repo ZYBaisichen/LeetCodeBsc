@@ -1,12 +1,12 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-12 10:27:52
+ * @LastEditTime: 2021-05-13 10:17:24
  * @LastEditors: baisichen
  * @Description: 
 -->
 # 日期/类型
-20210510 DP、贪心
+20210510 DP、贪心、数学
 与343题目相同：https://leetcode-cn.com/problems/integer-break/
 
 # 题目描述
@@ -111,5 +111,47 @@ $[y(2)]^6 = 8$
 由上一节证明了当绳子长度大于4时可以拆分成3、2、1，但小于4时，由于必须剪一刀，所以需要特殊处理。
 
 ## 大数取余问题
+求解a的b次幂对n的余数时，依据的公式为：
 
-待解决
+(a*b)%n = ((a%n)*(b%n))%n
+
+所以可以循环相乘之后取余
+
+``` cpp
+int mod(int a, int b, int n) {
+    int ans=1;
+    for (int i=0;i<b;i++) {
+        ans = (ans*a)%n;
+    }
+    return ans;
+}
+```
+
+这种取余方法的复杂度为n，所以需要考虑快速幂求余的方法，考虑b为奇数和偶数时的不同，有以下公式：
+
+$$
+a^b \quad mod \quad c = \left\{
+\begin{aligned}
+(a^{\frac{b}{2}})^2 \quad mod \quad c, \quad b为偶数 \\
+a*(a^{\frac{b}{2}})^2 \quad mod \quad c, \quad b为奇数 \\
+\end{aligned}
+\right.
+$$
+
+``` cpp
+//快速幂取余，求a^b mod n的余数
+int quckMod(int a, int b, int c) {
+    int ans = 1;
+    long long tmp = a; //用long long做中间结果的计算，防止tmp*tmp溢出
+    while (b) {
+        if (b%2==1) {//因为b一直除以2，所以最后一定会除到1，然后1除以2才到0
+            ans = (ans * tmp) % c; //如果b为奇数，本次做3次方
+        }
+        tmp = tmp * tmp % c; //每次做平方
+        b=b/2;
+    }
+    return ans;
+}
+```
+
+

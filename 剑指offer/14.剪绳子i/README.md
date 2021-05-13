@@ -1,12 +1,12 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-12 10:27:52
+ * @LastEditTime: 2021-05-13 10:42:58
  * @LastEditors: baisichen
  * @Description: 
 -->
 # 日期/类型
-20210510 DP、贪心
+20210510 DP、贪心、数学
 与343题目相同：https://leetcode-cn.com/problems/integer-break/
 
 # 题目描述
