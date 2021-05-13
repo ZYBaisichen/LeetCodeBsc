@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-13 10:17:24
+ * @LastEditTime: 2021-05-13 10:54:26
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -111,6 +111,8 @@ $[y(2)]^6 = 8$
 由上一节证明了当绳子长度大于4时可以拆分成3、2、1，但小于4时，由于必须剪一刀，所以需要特殊处理。
 
 ## 大数取余问题
+> 参考：https://blog.csdn.net/u013174702/article/details/43761197
+
 求解a的b次幂对n的余数时，依据的公式为：
 
 (a*b)%n = ((a%n)*(b%n))%n
