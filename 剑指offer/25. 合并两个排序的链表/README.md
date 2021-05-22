@@ -6,7 +6,7 @@
  * @Description: 
 -->
 # 日期/类型
-20210521 链表
+20210521 二叉树
 注意：本题与主站 21 题相同：https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
 # 题目描述
