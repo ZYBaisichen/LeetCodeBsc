@@ -1,100 +1,86 @@
 /*** 
  * @Author: baisichen
  * @Date: 2021-04-22 10:58:26
- * @LastEditTime: 2021-05-25 08:56:00
+ * @LastEditTime: 2021-05-25 13:10:42
  * @LastEditors: baisichen
  * @Description: 
  */
 #include "../../LeetCodeBsc.h"
 using namespace std;
 
-/*
-// Definition for a Node.
-class Node {
+class Codec {
 public:
-    int val;
-    Node* next;
-    Node* random;
-    
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
-};
-*/
-class Solution {
-public:
-	Node* treeToDoublyList(Node* root) {
-		if(!root) return root;
-		Node* head;
-		Node* p=root;
-		while(p&&p->left) {
-			p=p->left;
-		}
-		head=p;
 
-		treeToDoublyListCore(root);
-
-		p=head;
-		while(p&&p->right) {
-			p=p->right;
-		}
-		p->right = head;
-		head->left = p;
-		return head;
-    }
-	Node* treeToDoublyListCore(Node* root) {
-		if(!root) return NULL;
-
-		Node* left_head = treeToDoublyListCore(root->left);
-		Node* right_head = treeToDoublyListCore(root->right);
-		
-		Node* p=left_head;
-		Node * cur_left = left_head;//记录当前树转换完之后最左边的节点
-		while(p&&p->right) {
-			p=p->right;
-		}
-		if(p) {
-			p->right = root;
-			root->left = p;
-		} else {
-			cur_left = root;
-		}
-		root->right = right_head;
-		if(right_head) {
-			right_head->left = root;
-		}
-		return cur_left;
+	// Encodes a tree to a single string.
+	string serialize(TreeNode* root) {
+		string res;
+		if (!root) return res;
+		serializeCore(root, res);
+		return res;
 	}
 
-};
-
-class Solution1 {
-public:
-	Node *pre, *head;
-	Node* treeToDoublyList(Node* root) {
-		if(!root) return root;
-		treeToDoublyListCore(root);
-		head->left = pre;
-		pre->right = head;
-		return head;
-    }
-	void treeToDoublyListCore(Node* root) {
-		if(!root) return;
-
-		treeToDoublyListCore(root->left);
-		
-		//建链表的过程
-		if(pre) {
-			pre->right = root;
-		} else {
-			head = root;
+	void serializeCore(TreeNode* root, string& res) {
+		if(root==NULL) {
+			if(res=="")
+				res+="$";
+			else
+				res+=",$";
+			return;
 		}
-		root->left = pre;
-		pre = root;
+		if (res=="") {
+			res += int2string(root->val);
+		} else {
+			res += ",";
+			res += int2string(root->val);
+		}
+		serializeCore(root->left, res);
+		serializeCore(root->right, res);
+		return;
+	}
+	// Decodes your encoded data to tree.
+	TreeNode* deserialize(string data) {
+		TreeNode* root=NULL;
+		if(data=="") return root;
+		int cur=0;
+		deserializeCore(&root, data, cur);
+		return root;
+	}
+	void deserializeCore(TreeNode** root, string& data, int& cur) {
+		if(cur >= data.size()) {
+			return;
+		}
+		if (data[cur] == '$') {
+			cur+=2;
+			return;
+		}
 
-		treeToDoublyListCore(root->right);
+		int i=cur;
+		string tmp="";
+		while (i<data.size() && data[i] != ',') {
+			tmp+=data[i];
+			i++;
+		}
+		cur = i+1;
+		*root = new TreeNode(string2int(tmp));
+
+		deserializeCore(&((*root)->left), data, cur);
+		deserializeCore(&((*root)->right), data, cur);
+		return;
 	}
 
+	int string2int(string str){
+		stringstream ss;
+		ss << str;
+		int result;
+		ss >> result;
+		return result;
+	}
+
+	string int2string(int num){
+		stringstream ss;
+		ss << num; //将数字传入流中
+		string result;
+		ss >> result; //将流中的值写入到result中
+		return result;
+	}
 };
