@@ -14,7 +14,8 @@
 
 LeetCode solutions in C++ 11 and Python3.
 
-|NO.|Title|Solution|Note|Difficulty|Tag|相似题型|
+# leetcode题目目录
+|NO.|Title|Solution|Note|Difficulty|Tag|相似题型汇总|
 |---|-----|--------|----|----------|---|-------|
 |acwing02|[01背包问题](https://www.acwing.com/problem/content/2/)|[C++](acwing02.ZeroOnePack/solution.h) |[Note](acwing02.ZeroOnePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#acwing&知乎经典背包九讲)|
 |acwing03|[完全背包问题](https://www.acwing.com/problem/content/3/)|[C++](acwing03.CompletePack/solution.h) |[Note](acwing03.CompletePack)|简单|`背包dp`|见[经典题型分类汇总-背包问题](经典题型分类汇总.md#acwing&知乎经典背包九讲)|
@@ -39,3 +40,11 @@ LeetCode solutions in C++ 11 and Python3.
 |518|[零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)|[C++](518.coin-change-2/solution.h) |[Note](518.coin-change-2)|中等|`dp、完全背包`|见[经典题型分类汇总-leetcode背包相关变形问题](经典题型分类汇总.md#leetcode背包相关变形问题)|
 |714|[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](714.best-time-to-buy-and-sell-stock-with-transaction-fee/solution.h)|[Note](714.best-time-to-buy-and-sell-stock-with-transaction-fee)|困难|`dp`|见[经典题型分类汇总-买卖股票问题](经典题型分类汇总.md#股票买卖系列问题)|
 |897|[递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree/)|[C++](897.increasing-order-search-tree/solution.h) |[Note](897.increasing-order-search-tree)|简单|`二叉树`|见[经典题型分类汇总-二叉树](经典题型分类汇总.md#二叉树)|
+
+
+# 剑指offer系列
+|NO.|Title|Solution|Note|Difficulty|Tag|相似题型汇总|
+|---|-----|--------|----|----------|---|-------|
+|03.数组中重复的数字|[数组中重复数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|[C++](剑指offer/03.数组中重复的数字/solution.h) |[Note](剑指offer/03.数组中重复的数字)|简单|`哈希`| 见[经典题型分类汇总-哈希](经典题型分类汇总.md#哈希) |
+
+
