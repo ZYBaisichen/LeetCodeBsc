@@ -46,6 +46,6 @@ LeetCode solutions in C++ 11 and Python3.
 # 剑指offer系列
 |NO.|Title|Solution|Note|Difficulty|Tag|相似题型汇总|
 |---|-----|--------|----|----------|---|-------|
-|03.数组中重复的数字|[数组中重复数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|[C++](剑指offer/03.数组中重复的数字/solution.h) |[Note](剑指offer/03.数组中重复的数字)|简单|`哈希`| 见[经典题型分类汇总-哈希](经典题型分类汇总.md#哈希) |
-
+|03|[数组中重复数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|[C++](剑指offer/03.数组中重复的数字/solution.h) |[Note](剑指offer/03.数组中重复的数字)|简单|`哈希`| 见[经典题型分类汇总-哈希](经典题型分类汇总.md#哈希) |
+|04|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|[C++](剑指offer/04.二维数组中的查找/solution.h) |[Note](剑指offer/04.二维数组中的查找)|中等|`数组`| 见[经典题型分类汇总-数组](经典题型分类汇总.md#数组) |
 
