@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-05-09 16:08:18
+ * @LastEditTime: 2021-06-21 14:27:53
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -35,6 +35,7 @@ LeetCode solutions in C++ 11 and Python3.
 |363|[求矩形区域不超过K的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[C++](363.max-sum-of-rectangle-no-larger-than-k/solution.h) |[Note](363.max-sum-of-rectangle-no-larger-than-k)|困难|`边界遍历、贪心、dp`|见[经典题型分类汇总-区间最大问题](经典题型分类汇总.md#区间最大问题)|
 |368|[最大整除子集](https://leetcode-cn.com/problems/largest-divisible-subset/)|[C++](368.largest-divisible-subset/solution.h) |[Note](368.largest-divisible-subset)|中等|`排序、dp`|[300.最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)，见[经典题型分类汇总-集合问题](经典题型分类汇总.md#集合问题)|
 |377|[组合总和 Ⅳ](https://leetcode-cn.com/problems/combination-sum-iv/)|[C++](377.combination-sum-iv/solution.h) |[Note](377.combination-sum-ivi)|中等|`dp背包`|见[经典题型分类汇总-leetcode背包相关变形问题](经典题型分类汇总.md#leetcode背包相关变形问题)|
+|401|[二进制手表](https://leetcode-cn.com/problems/binary-watch/)|[C++](401.binary-watch/solution.h) |[Note](401.binary-watch)|简单|`位运算`|见[经典题型分类汇总-位运算](经典题型分类汇总.md#位运算)|
 |416|[分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)|[C++](494.target-sum/solution.h) |[Note](494.target-sum)|中等|`dp背包`|见[经典题型分类汇总-leetcode背包相关变形问题](经典题型分类汇总.md#leetcode背包相关变形问题)|
 |494|[ 目标和](https://leetcode-cn.com/problems/target-sum/)|[C++](416.partition-equal-subset-sum/solution.h) |[Note](416.partition-equal-subset-sum)|中等|`dp背包`|见[经典题型分类汇总-leetcode背包相关变形问题](经典题型分类汇总.md#leetcode背包相关变形问题)|
 |518|[零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)|[C++](518.coin-change-2/solution.h) |[Note](518.coin-change-2)|中等|`dp、完全背包`|见[经典题型分类汇总-leetcode背包相关变形问题](经典题型分类汇总.md#leetcode背包相关变形问题)|
