@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-06-22 11:10:54
+ * @LastEditTime: 2021-06-22 14:26:58
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -53,3 +53,9 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指09|[用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[C++](剑指offer/09.用两个栈实现队列/solution.h) |[Note](剑指offer/09.用两个栈实现队列)|简单|`栈、队列`| 见[题型分类汇总-栈](题型分类汇总.md#栈) |
 |剑指10|[斐波那契数列I&青蛙跳台阶问题](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)|[C++](剑指offer/10.斐波那契数列I&青蛙跳台阶问题/solution.h) |[Note](剑指offer/10.斐波那契数列I&青蛙跳台阶问题)|简单|`数学、dp`| 见[题型分类汇总-斐波那契数](题型分类汇总.md#斐波那契数) |
 |剑指11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)|[C++](剑指offer/11.旋转数组的最小数字/solution.h) |[Note](剑指offer/11.旋转数组的最小数字)|简单|`数组、二分`| 和145相同、分类见[题型分类汇总-二分查找](题型分类汇总.md#二分查找) |
+|剑指12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)|[C++](剑指offer/12.矩阵中的路径/solution.h) |[Note](剑指offer/12.矩阵中的路径)|中等|`回溯、dfs`| 和145相同、分类见[题型分类汇总-回溯](题型分类汇总.md#回溯) |
+|剑指13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)|[C++](剑指offer/13.机器人的运动范围/solution.h) |[Note](剑指offer/13.机器人的运动范围)|中等|`回溯、dfs`|和145相同、分类见[题型分类汇总-回溯](题型分类汇总.md#回溯) |
+|剑指14-i|[剪绳子i](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)|[C++](剑指offer/14.剪绳子i/solution.h) |[Note](剑指offer/14.剪绳子i)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
+|剑指14-ii|[剪绳子ii](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[C++](剑指offer/14.剪绳子ii/solution.h) |[Note](剑指offer/14.剪绳子ii)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
+|剑指15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[C++](剑指offer/15.二进制中1的个数/solution.h) |[Note](剑指offer/15.二进制中1的个数)|中等|`dp、数学`|和191相同、分类见[题型分类汇总-位运算](题型分类汇总.md#位运算) |
+
