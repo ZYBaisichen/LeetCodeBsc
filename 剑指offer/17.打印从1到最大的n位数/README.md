@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-13 10:52:17
+ * @LastEditTime: 2021-06-25 11:00:12
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -27,7 +27,7 @@ n 为正整数
 
 # 思路(C++)
 
-## 因为不用考虑整数
+## 因为不用考虑大数
 所以挨个打印10^n-1个数字
 
 ## dfs递归遍历

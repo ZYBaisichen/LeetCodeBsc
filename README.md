@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-06-22 14:26:58
+ * @LastEditTime: 2021-06-25 11:49:49
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -58,4 +58,8 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指14-i|[剪绳子i](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)|[C++](剑指offer/14.剪绳子i/solution.h) |[Note](剑指offer/14.剪绳子i)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
 |剑指14-ii|[剪绳子ii](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[C++](剑指offer/14.剪绳子ii/solution.h) |[Note](剑指offer/14.剪绳子ii)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
 |剑指15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[C++](剑指offer/15.二进制中1的个数/solution.h) |[Note](剑指offer/15.二进制中1的个数)|中等|`dp、数学`|和191相同、分类见[题型分类汇总-位运算](题型分类汇总.md#位运算) |
-
+|剑指16|[16.数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[C++](剑指offer/16.数值的整数次方/solution.h) |[Note](剑指offer/16.数值的整数方)|中等|`数学、快速幂&快速幂取余`|和50相同、分类见[题型分类汇总-数学推导](题型分类汇总.md#数学推导) |
+|剑指17|[17.打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)|[C++](剑指offer/17.打印从1到最大的n位数/solution.h) |[Note](剑指offer/17.打印从1到最大的n位数)|简单|`dfs`|和50相同、分类见[题型分类汇总-数学推导](题型分类汇总.md#数学推导) |
+|剑指18|[18.删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)|[C++](剑指offer/18.删除链表的节点/solution.h) |[Note](剑指offer/18.删除链表的节点)|简单|`链表`|和50相同、分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指19|[19.正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)|[C++](剑指offer/19.正则表达式匹配/solution.h) |[Note](剑指offer/19.正则表达式匹配)|困难|`动态规划`|和10相同、分类见[题型分类汇总-字符串dp](题型分类汇总.md#字符串dp) |
+|剑指20|[20.表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)|[C++](剑指offer/20.表示数值的字符串/solution.h) |[Note](剑指offer/20.表示数值的字符串)|中等|`字符串、词法分析`|分类见[题型分类汇总-字符串](题型分类汇总.md#字符串) |
