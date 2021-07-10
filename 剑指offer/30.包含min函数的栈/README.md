@@ -2,7 +2,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-23 08:38:10
+ * @LastEditTime: 2021-07-10 18:34:45
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -42,7 +42,7 @@ minStack.min();   --> 返回 -2.
 
 所以使用两个栈，一个栈st1记录所有入栈的数据，另一个栈st2的栈顶元素为当前栈中的最小元素。
 
-为了保证st2的栈顶在出栈之后栈顶也是st1的中的最小元素，所以要在入st2的时候要判断，当前元素num是否大于st2的栈顶元素top_num，因为num在top_num之后进入的的，所以在num出栈之前top_num一定不会出栈，故当num>top_num时，top_num一定会作为比num小的数字返回。当num<top_num时，则入st2
+为了保证st2的栈顶在出栈之后栈顶也是st1的中的最小元素，所以要在入st2的时候要判断，当前元素num是否大于st2的栈顶元素top_num，因为num在top_num之后进入的，所以在num出栈之前top_num一定不会出栈，故当num>top_num时，top_num一定会作为比num小的数字返回。当num<top_num时，则入st2
 
 ### 复杂度
 时间复杂度：O(n)

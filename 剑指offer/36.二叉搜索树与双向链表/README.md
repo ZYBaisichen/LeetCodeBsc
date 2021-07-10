@@ -2,7 +2,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-25 08:50:30
+ * @LastEditTime: 2021-07-10 19:46:23
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -27,7 +27,7 @@
 
 ## 递归指针操作
 - 问题分解
-  问题可以分解为将左右子树先全部转换成双向列表、然后将左边的最后一个节点的next指向当前root, 将root的next指向右边的第一个节点
+  问题可以分解为将左右子树先全部转换成双向列表、然后将左边的最后一个节点的right指向当前root, 将root的left指向右边的第一个节点
 
 - 原子问题代码：
 ``` cpp

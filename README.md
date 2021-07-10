@@ -1,7 +1,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-04-24 16:02:25
- * @LastEditTime: 2021-06-25 11:49:49
+ * @LastEditTime: 2021-07-10 19:47:05
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -69,4 +69,14 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指25|[25.合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)|[C++](剑指offer/25.合并两个排序的链表/solution.h) |[Note](剑指offer/25.合并两个排序的链表)|简单|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
 |剑指26|[26.树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/26.树的子结构)|中等|`二叉树、递归`|与21题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
 |剑指27|[27.二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/27.二叉树的镜像)|中等|`二叉树、递归`|与101题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
-|剑指27|[27.二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/27.二叉树的镜像)|中等|`二叉树、递归`|与101题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指28|[28.对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/28.对称的二叉树)|简单|`二叉树、递归`|与101题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指29|[29.顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/29.顺时针打印矩阵)|简单|`数组、方向数组`|分类见[题型分类汇总-数组](题型分类汇总.md#数组) |
+|剑指30|[30.包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)|[C++](剑指offer/30.包含min函数的栈/solution.h) |[Note](剑指offer/30.包含min函数的栈)|简单|`栈`|和155相同，分类见[题型分类汇总-栈](题型分类汇总.md#栈) |
+|剑指31|[31.栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)|[C++](剑指offer/31.栈的压入、弹出序列/solution.h) |[Note](剑指offer/31.栈的压入、弹出序列)|中等|`栈`|和946相同，分类见[题型分类汇总-栈](题型分类汇总.md#栈) |
+|剑指32|[32-I.从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)|[C++](剑指offer/32-I.从上到下打印二叉树/solution.h) |[Note](剑指offer/32-I.从上到下打印二叉树)|中等|`二叉树、队列`|分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指32|[32-II.从上到下打印二叉树II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)|[C++](剑指offer/32-II.从上到下打印二叉树II/solution.h) |[Note](剑指offer/32-II.从上到下打印二叉树II)|简单|`二叉树、队列`|与102相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指32|[32-III.从上到下打印二叉树III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)|[C++](剑指offer/32-III.从上到下打印二叉树III/solution.h) |[Note](剑指offer/32-III.从上到下打印二叉树III)|中等|`二叉树`|与102相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指33|[33.二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)|[C++](剑指offer/33.二叉搜索树的后序遍历序列/solution.h) |[Note](剑指offer/33.二叉搜索树的后序遍历序列)|中等|`二叉树`|分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指34|[34.二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)|[C++](剑指offer/34.二叉树中和为某一值的路径/solution.h) |[Note](剑指offer/34.二叉树中和为某一值的路径)|中等|`二叉树、回溯`|分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指35|[35.复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)|[C++](剑指offer/35.复杂链表的复制/solution.h) |[Note](剑指offer/35.复杂链表的复制)|中等|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指36|[36.二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)|[C++](剑指offer/36.二叉搜索树与双向链表/solution.h) |[Note](剑指offer/36.二叉搜索树与双向链表)|中等|`二叉树、链表`|与462相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
