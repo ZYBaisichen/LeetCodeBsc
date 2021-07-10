@@ -19,20 +19,32 @@ using namespace std;
  */
 class Solution {
 public:
-    TreeNode* mirrorTree(TreeNode* root) {
-		if (!root) return root;
-		mirrorTreeCore(root);
-		return root;
+  bool isSubStructure(TreeNode* A, TreeNode* B) {
+		bool res = false;
+		//空的树不可能时任何树的子树，空树不可能包含任何子树
+		if (A && B) {
+			if (A->val == B->val) {
+				res = haveEqualTree(A, B);
+			}
+			//没找到看左子树
+			if(!res) {
+				res =  isSubStructure(A->left, B);
+			}
+			//没找到看右子树
+			if(!res) {
+				res = isSubStructure(A->right, B);
+			}
+		}
+		return res;
     }
-	void mirrorTreeCore(TreeNode* root) {
-		if (!root) return;
-		
-		TreeNode* tmp = root->left;
-		root->left = root->right;
-		root->right = tmp;
 
-		mirrorTreeCore(root->left);
+	bool  haveEqualTree(TreeNode * A, TreeNode* B) {
+		if (!B)  return true;
+		if (!A) return false;
+		if (A->val != B->val) {
+			return false;
+		}
 
-		mirrorTreeCore(root->right);
-	}
+		return haveEqualTree(A->left, B->left) && haveEqualTree(A->right, B->right);
+    }
 };

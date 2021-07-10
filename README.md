@@ -63,3 +63,10 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指18|[18.删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)|[C++](剑指offer/18.删除链表的节点/solution.h) |[Note](剑指offer/18.删除链表的节点)|简单|`链表`|和50相同、分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
 |剑指19|[19.正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)|[C++](剑指offer/19.正则表达式匹配/solution.h) |[Note](剑指offer/19.正则表达式匹配)|困难|`动态规划`|和10相同、分类见[题型分类汇总-字符串dp](题型分类汇总.md#字符串dp) |
 |剑指20|[20.表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)|[C++](剑指offer/20.表示数值的字符串/solution.h) |[Note](剑指offer/20.表示数值的字符串)|中等|`字符串、词法分析`|分类见[题型分类汇总-字符串](题型分类汇总.md#字符串) |
+|剑指21|[21.调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)|[C++](剑指offer/21.调整数组顺序使奇数位于偶数前面/solution.h) |[Note](剑指offer/21.调整数组顺序使奇数位于偶数前面)|简单|`数组`|分类见[题型分类汇总-数组](题型分类汇总.md#数组) |
+|剑指22|[22.链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|[C++](剑指offer/22.链表中倒数第k个节点/solution.h) |[Note](剑指offer/22.链表中倒数第k个节点)|简单|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指23|[23.反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|[C++](剑指offer/23.反转链表/solution.h) |[Note](剑指offer/23.反转链表)|简单|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指25|[25.合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)|[C++](剑指offer/25.合并两个排序的链表/solution.h) |[Note](剑指offer/25.合并两个排序的链表)|简单|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指26|[26.树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/26.树的子结构)|中等|`二叉树、递归`|与21题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指27|[27.二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/27.二叉树的镜像)|中等|`二叉树、递归`|与101题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指27|[27.二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|[C++](剑指offer/26.树的子结构/solution.h) |[Note](剑指offer/27.二叉树的镜像)|中等|`二叉树、递归`|与101题相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
