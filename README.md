@@ -58,8 +58,8 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指14-i|[剪绳子i](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)|[C++](剑指offer/14.剪绳子i/solution.h) |[Note](剑指offer/14.剪绳子i)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
 |剑指14-ii|[剪绳子ii](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[C++](剑指offer/14.剪绳子ii/solution.h) |[Note](剑指offer/14.剪绳子ii)|中等|`dp、数学`|和343相同、分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
 |剑指15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[C++](剑指offer/15.二进制中1的个数/solution.h) |[Note](剑指offer/15.二进制中1的个数)|中等|`dp、数学`|和191相同、分类见[题型分类汇总-位运算](题型分类汇总.md#位运算) |
-|剑指16|[16.数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[C++](剑指offer/16.数值的整数次方/solution.h) |[Note](剑指offer/16.数值的整数方)|中等|`数学、快速幂&快速幂取余`|和50相同、分类见[题型分类汇总-数学推导](题型分类汇总.md#数学推导) |
-|剑指17|[17.打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)|[C++](剑指offer/17.打印从1到最大的n位数/solution.h) |[Note](剑指offer/17.打印从1到最大的n位数)|简单|`dfs`|和50相同、分类见[题型分类汇总-数学推导](题型分类汇总.md#数学推导) |
+|剑指16|[16.数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[C++](剑指offer/16.数值的整数次方/solution.h) |[Note](剑指offer/16.数值的整数方)|中等|`数学、快速幂&快速幂取余`|和50相同、分类见[题型分类汇总-数学](题型分类汇总.md#数学) |
+|剑指17|[17.打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)|[C++](剑指offer/17.打印从1到最大的n位数/solution.h) |[Note](剑指offer/17.打印从1到最大的n位数)|简单|`dfs`|和50相同、分类见[题型分类汇总-数学](题型分类汇总.md#数学) |
 |剑指18|[18.删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)|[C++](剑指offer/18.删除链表的节点/solution.h) |[Note](剑指offer/18.删除链表的节点)|简单|`链表`|和50相同、分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
 |剑指19|[19.正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)|[C++](剑指offer/19.正则表达式匹配/solution.h) |[Note](剑指offer/19.正则表达式匹配)|困难|`动态规划`|和10相同、分类见[题型分类汇总-字符串dp](题型分类汇总.md#字符串dp) |
 |剑指20|[20.表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)|[C++](剑指offer/20.表示数值的字符串/solution.h) |[Note](剑指offer/20.表示数值的字符串)|中等|`字符串、词法分析`|分类见[题型分类汇总-字符串](题型分类汇总.md#字符串) |
@@ -80,3 +80,32 @@ LeetCode solutions in C++ 11 and Python3.
 |剑指34|[34.二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)|[C++](剑指offer/34.二叉树中和为某一值的路径/solution.h) |[Note](剑指offer/34.二叉树中和为某一值的路径)|中等|`二叉树、回溯`|分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
 |剑指35|[35.复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)|[C++](剑指offer/35.复杂链表的复制/solution.h) |[Note](剑指offer/35.复杂链表的复制)|中等|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
 |剑指36|[36.二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)|[C++](剑指offer/36.二叉搜索树与双向链表/solution.h) |[Note](剑指offer/36.二叉搜索树与双向链表)|中等|`二叉树、链表`|与462相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指37|[37.序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/)|[C++](剑指offer/37.序列化二叉树/solution.h) |[Note](剑指offer/37.序列化二叉树)|困难|`二叉树`|与297相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指38|[38.字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)|[C++](剑指offer/38.字符串的排列/solution.h) |[Note](剑指offer/38.字符串的排列)|中等|`字符串`|分类见[题型分类汇总-字符串](题型分类汇总.md#字符串) |
+|剑指39|[39.数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)|[C++](剑指offer/39.数组中出现次数超过一半的数字/solution.h) |[Note](剑指offer/39.数组中出现次数超过一半的数字)|简单|`数组、哈希`|与169相同，分类见[题型分类汇总-数组](题型分类汇总.md#数组) |
+|剑指40|[40.最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|[C++](剑指offer/40.最小的k个数/solution.h) |[Note](剑指offer/40.最小的k个数)|简单|`堆、topK问题`|分类见[题型分类汇总-堆](题型分类汇总.md#堆) |
+|剑指41|[41.数据流中的中位数](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)|[C++](剑指offer/41.数据流中的中位数/solution.h) |[Note](剑指offer/41.数据流中的中位数)|困难|`对顶堆、堆`|与295相同，分类见[题型分类汇总-堆](题型分类汇总.md#堆) |
+|剑指42|[42.连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)|[C++](剑指offer/42.连续子数组的最大和/solution.h) |[Note](剑指offer/42.连续子数组的最大和)|简单|`dp、dp空间优化`|与53相同，分类见[题型分类汇总-区间最大问题](题型分类汇总.md#区间最大问题) |
+|剑指43|[43.1～n整数中1出现的次数](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/)|[C++](剑指offer/43.1～n整数中1出现的次数) |[Note](剑指offer/43.1～n整数中1出现的次数)|困难|`数位dp、数学`|与233相同，分类见[题型分类汇总-数位dp](题型分类汇总.md#数位dp) |
+|剑指44|[44.数字序列中某一位的数字](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)|[C++](剑指offer/44.数字序列中某一位的数字/solution.h) |[Note](剑指offer/44.数字序列中某一位的数字)|中等|`数学`|与400相同，分类见[题型分类汇总-数学](题型分类汇总.md#数学) |
+|剑指45|[45.将数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)|[C++](剑指offer/45.将数组排成最小的数/solution.h) |[Note](剑指offer/45.将数组排成最小的数)|中等|`排序`|分类见[题型分类汇总-排序](题型分类汇总.md#排序) |
+|剑指46|[46.把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)|[C++](剑指offer/46.把数字翻译成字符串/solution.h) |[Note](剑指offer/46.把数字翻译成字符串)|中等|`dp`|分类见[题型分类汇总-字符串dp](题型分类汇总.md#字符串dp) |
+|剑指47|[47.礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)|[C++](剑指offer/47.礼物的最大价值/solution.h) |[Note](剑指offer/47.礼物的最大价值)|中等|`dp`|分类见[题型分类汇总-集合问题](题型分类汇总.md#集合问题) |
+|剑指48|[48.最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)|[C++](剑指offer/48.最长不含重复字符的子字符串/solution.h) |[Note](剑指offer/48.最长不含重复字符的子字符串)|中等|`dp、哈希`|与第3题相同，分类见[题型分类汇总-字符串dp](题型分类汇总.md#字符串dp) |
+|剑指49|[49.丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)|[C++](剑指offer/49.丑数/solution.h) |[Note](剑指offer/49.丑数)|中等|`dp、数学、堆`|分类见[题型分类汇总-数位dp](题型分类汇总.md#数位dp) |
+|剑指50|[50.第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)|[C++](剑指offer/50.第一个只出现一次的字符/solution.h) |[Note](剑指offer/50.第一个只出现一次的字符)|简单|`哈希`|分类见[题型分类汇总-哈希](题型分类汇总.md#哈希) |
+|剑指51|[51.数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)|[C++](剑指offer/51.数组中的逆序对/solution.h) |[Note](剑指offer/51.数组中的逆序对)|困难|`归并排序`|分类见[题型分类汇总-排序](题型分类汇总.md#排序) |
+|剑指52|[52.两个链表的第一个公共节点](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)|[C++](剑指offer/52.两个链表的第一个公共节点/solution.h) |[Note](剑指offer/52.两个链表的第一个公共节点串)|简单|`链表`|分类见[题型分类汇总-链表](题型分类汇总.md#链表) |
+|剑指53|[53-I.在排序数组中查找数字I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|[C++](剑指offer/53-I.在排序数组中查找数字I/solution.h) |[Note](剑指offer/53-I.在排序数组中查找数字I)|简单|`数组、二分`|与34相同，分类见[题型分类汇总-二分查找](题型分类汇总.md#二分查找) |
+|剑指53|[53-ii.0~n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)|[C++](剑指offer/53-ii.0~n-1中缺失的数字/solution.h) |[Note](剑指offer/53-ii.0~n-1中缺失的数字)|简单|`数组、二分`|分类见[题型分类汇总-二分查找](题型分类汇总.md#二分查找) |
+|剑指54|[54.二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)|[C++](剑指offer/54.二叉搜索树的第k大节点/solution.h) |[Note](剑指offer/54.二叉搜索树的第k大节点)|简单|`二叉树`|分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指55|[55-1.二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)|[C++](剑指offer/55-1.二叉树的深度/solution.h) |[Note](剑指offer/55-1.二叉树的深度)|简单|`二叉树`|与104相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+|剑指55|[55-ii.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[C++](剑指offer/55-ii.平衡二叉树/solution.h) |[Note](剑指offer/55-ii.平衡二叉树)|中等|`二叉树`|与110相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+
+|剑指55|[55-ii.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[C++](剑指offer/55-ii.平衡二叉树/solution.h) |[Note](剑指offer/55-ii.平衡二叉树)|中等|`二叉树`|与110相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+
+|剑指55|[55-ii.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[C++](剑指offer/55-ii.平衡二叉树/solution.h) |[Note](剑指offer/55-ii.平衡二叉树)|中等|`二叉树`|与110相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+
+|剑指55|[55-ii.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[C++](剑指offer/55-ii.平衡二叉树/solution.h) |[Note](剑指offer/55-ii.平衡二叉树)|中等|`二叉树`|与110相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
+
+|剑指55|[55-ii.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[C++](剑指offer/55-ii.平衡二叉树/solution.h) |[Note](剑指offer/55-ii.平衡二叉树)|中等|`二叉树`|与110相同，分类见[题型分类汇总-二叉树](题型分类汇总.md#二叉树) |
