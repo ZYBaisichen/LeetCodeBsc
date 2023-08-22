@@ -49,7 +49,7 @@
 
 用两次二分可以找到tar的左右边界，然后相减即可得到tar出现的次数
 
-寻找左边界和右边界的规则不同，为了让二分的逻辑刚具一般性，可以分别计算tar的右边界r1，计算tar-1的右边界r2。然后tar的总数量为r2-r1+1，这里因为数组中都为整数，所以tar-1的右边界一定为tar。 这种变换特别像概率里面的分布函数F(x)
+寻找左边界和右边界的规则不同，为了让二分的逻辑更具一般性，可以分别计算tar的右边界r1，计算tar-1的右边界r2。然后tar的总数量为r2-r1+1，这里因为数组中都为整数，所以tar-1的右边界一定为tar。 这种变换特别像概率里面的分布函数F(x)
 
 作者：hui-fei-de-wan-xiong-t
 链接：https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/solution/xun-zhao-zuo-you-bian-jie-by-hui-fei-de-dlgz4/

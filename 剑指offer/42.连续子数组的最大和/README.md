@@ -2,7 +2,7 @@
 <!--
  * @Author: baisichen
  * @Date: 2021-05-10 10:20:04
- * @LastEditTime: 2021-05-27 14:41:54
+ * @LastEditTime: 2023-08-13 11:08:18
  * @LastEditors: baisichen
  * @Description: 
 -->
@@ -39,7 +39,7 @@ dp[i]表示已第i个元素为结尾的连续子数组的最大和
 
 三、状态转移
 以第i个元素为结尾的连续子数组的最大和，要么是其本身，要么加上前i-1个元素的连续子数组最大和，即：
-dp[i] = max(nums[i-1], dp[i-1]+nums[i])
+dp[i] = max(nums[i-1], dp[i-1]+nums[i-1])
 
 四、初始化
 第一个元素为结尾的最大值为他本身：dp[1] = nums[0]

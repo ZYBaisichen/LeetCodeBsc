@@ -1,7 +1,7 @@
 /*** 
  * @Author: baisichen
  * @Date: 2021-04-22 10:58:26
- * @LastEditTime: 2021-05-10 22:23:34
+ * @LastEditTime: 2023-08-17 19:39:26
  * @LastEditors: baisichen
  * @Description: 
  */
@@ -88,6 +88,13 @@ public:
             for (int kk = 0; kk <4;kk++) {
                 res = res || dfs(board, word, i+map[kk][0], j+map[kk][1], k+1);
             }
+            
+            //这样使用vector会超时
+            //vector<vector<int>> direct={{-1,0},{1,0},{0,-1},{0,1}};
+            // bool res = false;
+            // for (int kk=0;kk<4;kk++) {
+            //     res = res || dfs(board, word, i+direct[kk][0], j+direct[kk][1], k+1);
+            // }
                       
             //回溯被访问的节点
             board[i][j] = word[k];
