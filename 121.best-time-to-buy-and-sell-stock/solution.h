@@ -3,7 +3,7 @@
  * @Date: 2021-04-22 10:58:26
  * @LastEditTime: 2021-04-24 17:26:22
  * @LastEditors: baisichen
- * @Description: 买卖股票最佳时机，只能买卖一次
+ * @Description: 买卖股票最佳时机，只能买卖一�?
  */
 #include <iostream>
 #include <vector>
@@ -32,9 +32,6 @@ public:
         int ans = 0;
         int min_price = prices[0];
         for (int i=0;i<len;i++) {
-            if (min_price > prices[i]) {
-                min_price = prices[i];
-            }
             ans = max(prices[i]-min_price, ans);
             min_price = min(min_price, prices[i]);
         }
